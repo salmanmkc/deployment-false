@@ -7,6 +7,5 @@ jobs:
     runs-on: ubuntu-latest
     environment:
       name: dev
-      deployment: true
     steps:
       - run: echo 'done'
