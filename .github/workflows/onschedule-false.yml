@@ -2,7 +2,7 @@ name: Scheduled job (no deployment)
 
 on:
   schedule:
-    - cron: '0 0 * * *'
+    - cron: '5 20 * * *'    
 
 jobs:
   job-name:
@@ -11,6 +11,4 @@ jobs:
       deployment: false
       name: dev
     steps:
-      - run: echo 'done'
-
-
+      - run: echo 'done'  
