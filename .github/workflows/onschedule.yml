@@ -1,4 +1,4 @@
-name: Scheduled job (with deployment)
+name: Scheduled job 
 
 on:
   schedule:
