@@ -1,3 +1,5 @@
+name: Scheduled job 
+
 on:
   schedule:
     - cron: '0 0 * * *'
